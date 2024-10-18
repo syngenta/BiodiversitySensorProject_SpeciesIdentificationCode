@@ -23,3 +23,100 @@ The attached script provides a clear overview of the steps to create a YOLOv5 mo
 detection. For detailed information, the full documentation is available on the [Ultralytics YOLOv5 webpage](https://docs.ultralytics.com/yolov5/).
 
 ## Results
+<table>
+  <tr>
+    <th bgcolor="#FFF">Bee species</th>
+    <th bgcolor="#FFF">Butterfly species</th>
+    <th bgcolor="#FFF">Hoverfly species</th>
+    <th bgcolor="#FFF">Other</th>
+  </tr>
+   <tr>
+    <td bgcolor="#90EE90">Amegilla sp.</td>
+    <td bgcolor="#90EE90">Aglais io</td>
+    <td bgcolor="#90EE90">Episyrphus balteatus</td>
+    <td bgcolor="#90EE90">Chrysoperla carnea</td>
+  </tr>
+  <tr>
+    <td bgcolor="#90EE90">Andrena cineraria</td>
+    <td bgcolor="#90EE90">Aglais urticae</td>
+    <td bgcolor="#90EE90">Eristalis tenax</td>
+    <td bgcolor="#90EE90">Nezara viridula</td>
+  </tr>
+  <tr>
+    <td bgcolor="#90EE90">Andrena fulva</td>
+    <td bgcolor="#90EE90">Hylaeus signatus</td>
+    <td bgcolor="#FFFFFF"></td>
+    <td bgcolor="#FFFFFF"></td>
+  </tr>
+  <tr>
+    <td bgcolor="#90EE90">Andrena haemorrhoa</td>
+    <td bgcolor="#90EE90">Lasiommata megera</td>
+    <td bgcolor="#FFFFFF"></td>
+    <td bgcolor="#FFFFFF"></td>
+  </tr>
+  <tr>
+    <td bgcolor="#8FBC8F">Apis mellifera</td>
+    <td bgcolor="#90EE90">Lycaena phlaeas</td>
+    <td bgcolor="#FFFFFF"></td>
+    <td bgcolor="#FFFFFF"></td>
+  </tr>
+  <tr>
+    <td bgcolor="#8FBC8F">Bombus terrestris</td>
+    <td bgcolor="#90EE90">Maniola jurtina</td>
+    <td bgcolor="#FFFFFF"></td>
+    <td bgcolor="#FFFFFF"></td>
+  </tr>
+  <tr>
+    <td bgcolor="#90EE90">Halictus sp.</td>
+    <td bgcolor="#90EE90">Pieris rapae</td>
+    <td bgcolor="#FFFFFF"></td>
+    <td bgcolor="#FFFFFF"></td>
+  </tr>
+  <tr>
+    <td bgcolor="#90EE90">Lasioglossum sp.</td>
+    <td bgcolor="#90EE90">Polyommatus icarus</td>
+    <td bgcolor="#FFFFFF"></td>
+    <td bgcolor="#FFFFFF"></td>
+  </tr>
+  <tr>
+    <td bgcolor="#90EE90">Lipotriches sp.</td>
+    <td bgcolor="#90EE90">Vanessa atalanta</td>
+    <td bgcolor="#FFFFFF"></td>
+    <td bgcolor="#FFFFFF"></td>
+  </tr>
+  <tr>
+    <td bgcolor="#8FBC8F">Megachile sp.</td>
+    <td bgcolor="#90EE90">Vanessa cardui</td>
+    <td bgcolor="#FFFFFF"></td>
+    <td bgcolor="#FFFFFF"></td>
+  </tr>
+  <tr>
+    <td bgcolor="#8FBC8F">Osmia cornuta</td>
+    <td bgcolor="#FFFFFF"></td>
+    <td bgcolor="#FFFFFF"></td>
+    <td bgcolor="#FFFFFF"></td>
+  </tr>
+  <tr>
+    <td bgcolor="#90EE90">Xylocopa violacea</td>
+    <td bgcolor="#FFFFFF"></td>
+    <td bgcolor="#FFFFFF"></td>
+    <td bgcolor="#FFFFFF"></td>
+  </tr>
+</table>
+
+![Description of Image 1](images/Picture1.jpg)
+
+<table>
+  <tr>
+    <td>
+      <img src="images/Picture1.jpg" alt="Description of Image 1" width="200"/>
+      <br>
+      <em>Description of Image 1</em>
+    </td>
+    <td>
+      <img src="images/Picture1.jpg" alt="Description of Image 2" width="200"/>
+      <br>
+      <em>Description of Image 2</em>
+    </td>
+  </tr>
+</table>
