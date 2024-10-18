@@ -120,3 +120,20 @@ detection. For detailed information, the full documentation is available on the 
     </td>
   </tr>
 </table>
+
+Here's the information from the image converted into a Markdown table:
+
+| Bee species | Butterfly species | Hoverfly species | Other |
+|----------|----------|----------|----------|
+| Amegilla sp. | Aglais io | Episyrphus balteatus | Chrysoperla carnea |
+| Andrena cineraria | Aglais urticae | Eristalis tenax | Nezara viridula |
+| Andrena fulva | Hylaeus signatus |  |  |
+| Andrena haemorrhoa | Lasiommata megera |  |  |
+| Apis mellifera | Lycaena phlaeas |  |  |
+| Bombus terrestris | Maniola jurtina |  |  |
+| Halictus sp. | Pieris rapae |  |  |
+| Lasioglossum sp. | Polyommatus icarus |  |  |
+| Lipotriches sp. | Vanessa atalanta |  |  |
+| Megachile sp. | Vanessa cardui |  |  |
+| Osmia cornuta |  |  |  |
+| Xylocopa violacea |  |  |  |
