@@ -18,122 +18,67 @@ This web-based platform is designed to streamline the management, augmentation, 
 vision tasks. By leveraging insights from previously trained models, Roboflow significantly accelerated 
 the annotation workflow of the additional images.
 
-## Model
-The attached script provides a clear overview of the steps to create a YOLOv5 model, from training to image 
-detection. For detailed information, the full documentation is available on the [Ultralytics YOLOv5 webpage](https://docs.ultralytics.com/yolov5/).
-
-## Results
-<table>
-  <tr>
-    <th bgcolor="#FFF">Bee species</th>
-    <th bgcolor="#FFF">Butterfly species</th>
-    <th bgcolor="#FFF">Hoverfly species</th>
-    <th bgcolor="#FFF">Other</th>
-  </tr>
-   <tr>
-    <td bgcolor="#90EE90">Amegilla sp.</td>
-    <td bgcolor="#90EE90">Aglais io</td>
-    <td bgcolor="#90EE90">Episyrphus balteatus</td>
-    <td bgcolor="#90EE90">Chrysoperla carnea</td>
-  </tr>
-  <tr>
-    <td bgcolor="#90EE90">Andrena cineraria</td>
-    <td bgcolor="#90EE90">Aglais urticae</td>
-    <td bgcolor="#90EE90">Eristalis tenax</td>
-    <td bgcolor="#90EE90">Nezara viridula</td>
-  </tr>
-  <tr>
-    <td bgcolor="#90EE90">Andrena fulva</td>
-    <td bgcolor="#90EE90">Hylaeus signatus</td>
-    <td bgcolor="#FFFFFF"></td>
-    <td bgcolor="#FFFFFF"></td>
-  </tr>
-  <tr>
-    <td bgcolor="#90EE90">Andrena haemorrhoa</td>
-    <td bgcolor="#90EE90">Lasiommata megera</td>
-    <td bgcolor="#FFFFFF"></td>
-    <td bgcolor="#FFFFFF"></td>
-  </tr>
-  <tr>
-    <td bgcolor="#8FBC8F">Apis mellifera</td>
-    <td bgcolor="#90EE90">Lycaena phlaeas</td>
-    <td bgcolor="#FFFFFF"></td>
-    <td bgcolor="#FFFFFF"></td>
-  </tr>
-  <tr>
-    <td bgcolor="#8FBC8F">Bombus terrestris</td>
-    <td bgcolor="#90EE90">Maniola jurtina</td>
-    <td bgcolor="#FFFFFF"></td>
-    <td bgcolor="#FFFFFF"></td>
-  </tr>
-  <tr>
-    <td bgcolor="#90EE90">Halictus sp.</td>
-    <td bgcolor="#90EE90">Pieris rapae</td>
-    <td bgcolor="#FFFFFF"></td>
-    <td bgcolor="#FFFFFF"></td>
-  </tr>
-  <tr>
-    <td bgcolor="#90EE90">Lasioglossum sp.</td>
-    <td bgcolor="#90EE90">Polyommatus icarus</td>
-    <td bgcolor="#FFFFFF"></td>
-    <td bgcolor="#FFFFFF"></td>
-  </tr>
-  <tr>
-    <td bgcolor="#90EE90">Lipotriches sp.</td>
-    <td bgcolor="#90EE90">Vanessa atalanta</td>
-    <td bgcolor="#FFFFFF"></td>
-    <td bgcolor="#FFFFFF"></td>
-  </tr>
-  <tr>
-    <td bgcolor="#8FBC8F">Megachile sp.</td>
-    <td bgcolor="#90EE90">Vanessa cardui</td>
-    <td bgcolor="#FFFFFF"></td>
-    <td bgcolor="#FFFFFF"></td>
-  </tr>
-  <tr>
-    <td bgcolor="#8FBC8F">Osmia cornuta</td>
-    <td bgcolor="#FFFFFF"></td>
-    <td bgcolor="#FFFFFF"></td>
-    <td bgcolor="#FFFFFF"></td>
-  </tr>
-  <tr>
-    <td bgcolor="#90EE90">Xylocopa violacea</td>
-    <td bgcolor="#FFFFFF"></td>
-    <td bgcolor="#FFFFFF"></td>
-    <td bgcolor="#FFFFFF"></td>
-  </tr>
-</table>
-
-![Description of Image 1](images/Picture1.jpg)
-
-<table>
-  <tr>
-    <td>
-      <img src="images/Picture1.jpg" alt="Description of Image 1" width="200"/>
-      <br>
-      <em>Description of Image 1</em>
-    </td>
-    <td>
-      <img src="images/Picture1.jpg" alt="Description of Image 2" width="200"/>
-      <br>
-      <em>Description of Image 2</em>
-    </td>
-  </tr>
-</table>
-
-Here's the information from the image converted into a Markdown table:
-
+### Dataset species
 | Bee species | Butterfly species | Hoverfly species | Other |
 |----------|----------|----------|----------|
 | Amegilla sp. | Aglais io | Episyrphus balteatus | Chrysoperla carnea |
 | Andrena cineraria | Aglais urticae | Eristalis tenax | Nezara viridula |
 | Andrena fulva | Hylaeus signatus |  |  |
 | Andrena haemorrhoa | Lasiommata megera |  |  |
-| Apis mellifera | Lycaena phlaeas |  |  |
-| Bombus terrestris | Maniola jurtina |  |  |
+| Apis mellifera ** | Lycaena phlaeas |  |  |
+| Bombus terrestris ** | Maniola jurtina |  |  |
 | Halictus sp. | Pieris rapae |  |  |
 | Lasioglossum sp. | Polyommatus icarus |  |  |
 | Lipotriches sp. | Vanessa atalanta |  |  |
-| Megachile sp. | Vanessa cardui |  |  |
-| Osmia cornuta |  |  |  |
+| Megachile sp. ** | Vanessa cardui |  |  |
+| Osmia cornuta ** |  |  |  |
 | Xylocopa violacea |  |  |  |
+
+** Species with available robust dataset of on-field image examples
+
+## Model
+The attached script provides a clear overview of the steps to create a YOLOv5 model, from training to image 
+detection. For detailed information, the full documentation is available on the [Ultralytics YOLOv5 webpage](https://docs.ultralytics.com/yolov5/).
+
+## Results
+This section presents confusion matrices and inference samples for species models that combine both on-field and internet image datasets. We focus specifically on species with robust on-field data, as these represent our most comprehensive real-world datasets. However, it's important to note that while these models have the most on-field examples, they don't necessarily yield the best performance. This is primarily due to the challenging nature of on-field imagery, which often includes lower resolution images, varying environmental conditions, and less clearly defined subjects. In contrast, models trained solely on internet images tend to show higher true positive rates, benefiting from higher resolution images with larger, more clearly defined objects. These factors contribute to easier pattern recognition and feature extraction during model training. Despite these challenges, the results presented here offer valuable insights into model performance under real-world conditions, balancing the ideal scenarios of internet imagery with the practical realities of on-field data collection.
+
+* Apis mellifera + Bombus terrestris
+
+<div class="figure" style="text-align: center">
+<img src="images/apisXbombus_matrix.png" width="60%" height="60%" />
+<p class="caption"> Confusion Matrix </p>
+</div>
+
+<div class="figure" style="text-align: center">
+<img src="images/apis_internet.jpg" width="60%" height="60%" />
+<p class="caption"> Inference from internet dataset </p>
+</div>
+
+<div class="figure" style="text-align: center">
+<img src="images/apis_on-field.jpg" width="60%" height="60%" />
+<p class="caption"> Inference from on-field dataset </p>
+</div>
+
+* Osmia cornuta
+<div class="figure" style="text-align: center">
+<img src="images/osmia_matrix.png" width="60%" height="60%" />
+<p class="caption"> Confusion Matrix </p>
+</div>
+
+<div class="figure" style="text-align: center">
+<img src="images/osmia_inference.jpg" width="60%" height="60%" />
+<p class="caption"> Specie inference </p>
+</div>
+
+* Megachille sp.
+<div class="figure" style="text-align: center">
+<img src="images/megachille_matrix.png" width="60%" height="60%" />
+<p class="caption"> Confusion Matrix </p>
+</div>
+
+<div class="figure" style="text-align: center">
+<img src="images/megachille_inference.jpg" width="60%" height="60%" />
+<p class="caption"> Specie inference </p>
+</div>
+
