@@ -1,5 +1,5 @@
 # Biodiversity Sensor - Species Identification
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/syngenta/BiodiversitySensorProject_SpeciesIdentificationCode/blob/main/train_yolov5.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/syngenta/BiodiversitySensorProject_SpeciesIdentificationCode/blob/main/yolov5_script.ipynb)
 
 ## Overview
 Species Identification is an open-source repository that's part of Syngenta's Biodiversity Sensor Project. 
