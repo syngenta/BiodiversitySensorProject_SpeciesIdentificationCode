@@ -3,7 +3,7 @@
 
 ## Overview
 Species Identification is an open-source repository that's part of Syngenta's Biodiversity Sensor Project. 
-This document describes how a YOLOv5-based architecture could be used to tackle the challenge of detecting 
+This document describes how a YOLOv5-based architecture could be used to tackle the challenge of detecting and identifying 
 insect species from remotely captured images and presents the results achieved from it. Additionally, it 
 includes a runnable example with detailed instructions for reproduction.
 
@@ -38,7 +38,7 @@ the annotation workflow of the additional images.
 
 ## Model
 The attached script provides a clear overview of the steps to create a YOLOv5 model, from training to image 
-detection. For detailed information, the full documentation is available on the [Ultralytics YOLOv5 webpage](https://docs.ultralytics.com/yolov5/).
+detection and identification. For detailed information, the full documentation is available on the [Ultralytics YOLOv5 webpage](https://docs.ultralytics.com/yolov5/).
 
 ## Results
 This section presents confusion matrices and inference samples for species models that combine both on-field and internet image datasets. We focus specifically on species with robust on-field data, as these represent our most comprehensive real-world datasets. However, it's important to note that while these models have the most on-field examples, they don't necessarily yield the best performance. This is primarily due to the challenging nature of on-field imagery, which often includes lower resolution images, varying environmental conditions, and less clearly defined subjects. In contrast, models trained solely on internet images tend to show higher true positive rates, benefiting from higher resolution images with larger, more clearly defined objects. These factors contribute to easier pattern recognition and feature extraction during model training. Despite these challenges, the results presented here offer valuable insights into model performance under real-world conditions, balancing the ideal scenarios of internet imagery with the practical realities of on-field data collection.
