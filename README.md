@@ -83,7 +83,7 @@ This section presents confusion matrices and inference samples for species model
 </div>
 
 ## Contributing
-We invite you to explore our open-sourced motion detection code (https://github.com/syngenta/DigitalEntomologist_MotionDetectionCode) and the machine-learning process from training to species detetcion and identification, and freely develop this further to bring science, technology, data together to improve our collective responsibility - biodiversity.  
+We invite you to explore our open-sourced motion detection code (https://github.com/syngenta/DigitalEntomologist_MotionDetectionCode) and the machine-learning process described here, from training to species detection and identification, and freely develop this further to bring science, technology, data together to improve our collective responsibility - biodiversity.  
 Bug reports and pull requests are welcome on GitHub at https://github.com/syngenta/BiodiversitySensorProject_SpeciesIdentificationCode
 Please, check our Contribution guide for more details (https://github.com/syngenta/DigitalEntomologist_MotionDetectionCode/blob/main/CONTRIBUTING.md).
 This project adheres to the Code of Conduct (https://github.com/syngenta/DigitalEntomologist_MotionDetectionCode?tab=coc-ov-file). We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
