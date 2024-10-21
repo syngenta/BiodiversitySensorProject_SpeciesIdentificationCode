@@ -68,7 +68,7 @@ This section presents confusion matrices and inference samples for species model
 
 <div class="figure" style="text-align: center">
 <img src="images/osmia_inference.jpg" width="60%" height="60%" />
-<p class="caption"> Specie inference </p>
+<p class="caption"> Species inference </p>
 </div>
 
 * Megachille sp.
@@ -79,6 +79,14 @@ This section presents confusion matrices and inference samples for species model
 
 <div class="figure" style="text-align: center">
 <img src="images/megachille_inference.jpg" width="60%" height="60%" />
-<p class="caption"> Specie inference </p>
+<p class="caption"> Species inference </p>
 </div>
 
+## Contributing
+We invite you to explore our open-sourced motion detection code (https://github.com/syngenta/DigitalEntomologist_MotionDetectionCode) and the machine-learning process from training to species detetcion and identification, and freely develop this further to bring science, technology, data together to improve our collective responsibility - biodiversity.  
+Bug reports and pull requests are welcome on GitHub at https://github.com/syngenta/BiodiversitySensorProject_SpeciesIdentificationCode
+Please, check our Contribution guide for more details (https://github.com/syngenta/DigitalEntomologist_MotionDetectionCode/blob/main/CONTRIBUTING.md).
+This project adheres to the Code of Conduct (https://github.com/syngenta/DigitalEntomologist_MotionDetectionCode?tab=coc-ov-file). We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
+
+## License 
+The project uses the MIT License. See LICENSE (https://github.com/syngenta/DigitalEntomologist_MotionDetectionCode?tab=MIT-1-ov-file) for details.
