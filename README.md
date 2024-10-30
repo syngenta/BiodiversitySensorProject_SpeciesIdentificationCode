@@ -92,4 +92,4 @@ Please, check our Contribution guide for more details (https://github.com/syngen
 This project adheres to the Code of Conduct (https://github.com/syngenta/BiodiversitySensorProject_SpeciesIdentificationCode/blob/main/CODE_OF_CONDUCT.md). We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
 
 ## License 
-The project uses the MIT License. See LICENSE ( for details.
+The project uses the MIT License. See LICENSE (https://github.com/syngenta/BiodiversitySensorProject_SpeciesIdentificationCode/blob/main/LICENSE) for details.
