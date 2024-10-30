@@ -89,7 +89,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/syngen
 
 Please, check our Contribution guide for more details (https://github.com/syngenta/DigitalEntomologist_MotionDetectionCode/blob/main/CONTRIBUTING.md).
 
-This project adheres to the Code of Conduct (https://github.com/syngenta/DigitalEntomologist_MotionDetectionCode?tab=coc-ov-file). We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
+This project adheres to the Code of Conduct (https://github.com/syngenta/BiodiversitySensorProject_SpeciesIdentificationCode/blob/main/CODE_OF_CONDUCT.md). We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
 
 ## License 
-The project uses the MIT License. See LICENSE (https://github.com/syngenta/DigitalEntomologist_MotionDetectionCode?tab=MIT-1-ov-file) for details.
+The project uses the MIT License. See LICENSE ( for details.
